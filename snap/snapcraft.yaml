@@ -68,6 +68,7 @@ parts:
       - --with-system-libmpdec
       - --with-system-ffi
       - --with-fpectl
+    install-via: prefix
     make-parameters:
       - CC=$SNAPCRAFT_STAGE/compiler.sh
 
