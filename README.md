@@ -1,3 +1,7 @@
+# Python 3.7 snap packager
+
+*based on <https://github.com/jhenstridge/python-snap-pkg>*
+
 This repository contains snap packaging for the Python language
 interpreter and standard library.
 
@@ -10,8 +14,8 @@ The package also exports two content interface slots that make Python
 available to other snap packages.  This provides a safe way for
 multiple snap packages to share the same Python interpreter.
 
-Both the `python3` and `python3.6` slots export the same content: the
+Both the `python3` and `python3.7` slots export the same content: the
 intention is that newer releases of Python might also provide the
-`python3` content ID, but not `python3.6`.  For pure Python packages,
+`python3` content ID, but not `python3.7`.  For pure Python packages,
 the first might be appropriate.  While packages that contain extension
-modules compiled for Python 3.6, the second makes sense.
+modules compiled for Python 3.7, the second makes sense.
