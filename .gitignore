@@ -5,3 +5,5 @@
 /*.tar.bz2
 /*.tar.xz
 *~
+.vscode/
+.idea/
